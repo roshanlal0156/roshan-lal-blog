@@ -33,7 +33,7 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://roshanlal0156_2:F5zijjzDzm.$7Yc@cluster0.c5oypqs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),
+            'dsn' => env('DB_URI', ''),
             'database' => 'roshan-lal-blog',
         ],
 

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e1f7f5;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px 0px 20px;
+    width: 1440px;
+}
+
+@media (width > 1024px) and (width < 1440px) {
+    .container {
+        width: 1024px;
+    }
+}
+@media (width > 768px) and (width < 1024px) {
+    .container {
+        width: 768px;
+    }
+}
+@media (width > 425px) and (width < 768px) {
+    .container {
+        width: 425px;
+    }
+}
+@media (width > 0px) and (width < 425px) {
+    .container {
+        width: 100%;
+    }
+}
