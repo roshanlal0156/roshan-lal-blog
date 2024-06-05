@@ -1,0 +1,26 @@
+#auther_dashboard_form-new-blog {
+}
+
+#author_dashboard-hr{
+    margin: 50px 0px;
+}
+
+
+.auther_body_blogs-li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    box-shadow: 2px 6px 12px 6px #9AC8CD;
+    border-radius: 5px;
+    /* background-color: #a29fa7; */
+    /* color: rgb(43, 42, 42); */
+}
+.auther_body_blogs-li > h1 {
+    width: 50%;
+    margin-left: 5px;
+}
+.auther_body_blogs-li > a {
+    margin: 0px 20px;
+}

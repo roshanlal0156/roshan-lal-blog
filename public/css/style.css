@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,6 +11,26 @@ body {
     font-family: "Marcellus", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.a-tag {
+    text-decoration: none;
+    background-color: #0E46A3;
+    color: #e1f7f5;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 2px 4px #474747;
+}
+
+a, button {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 2px 4px #474747;
 }
 
 .container {
